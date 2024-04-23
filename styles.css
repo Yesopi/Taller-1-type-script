@@ -1,0 +1,6 @@
+/* Estilos para la primera fila del contenedor */
+.container > .row:first-child {
+    background-color: rgb(7, 188, 248);
+    color: rgb(12, 12, 12);
+    padding: 10px 0; /* Agrega un poco de padding vertical */
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV SERIES</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                TV SERIES
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Channel</th>
+                        <th scope="col">Seasons</th>
+                      </tr>
+                    </thead>
+                    <tbody id="series">
+                    </tbody>
+                </table>
+                <div>
+                    <span id="avarage"></span>
+                </div>
+            </div>
+            <div class="col-6">
+                <div id="seriesDetails" class="card" style="display: none;">
+                    <img src="" class="card-img-top" id="cardImage" alt="Series image">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitle"></h5>
+                        <h6 class="card-subtitle mb-2 text-muted" id="cardSubtitle"></h6>
+                        <p class="card-text" id="cardText"></p>
+                        <a href="#" id="cardLink" class="btn btn-primary">Visit Series Page</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./scripts/serie.js" ></script>
+    <script type="module" src="./scripts/data.js" ></script>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
